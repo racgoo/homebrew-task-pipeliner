@@ -7,16 +7,16 @@ class TaskPipeliner < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/racgoo/task-pipeliner/releases/download/v0.2.3/tp-macos-arm64"
-      sha256 "8159f76180c3c00c48950896ac6664279eb3dc48e2c67eccd6e578c20db2c2db"
+      sha256 "d12df0b46bfa400038d1d4594d11743292e5de69e72894d5e8c79eb23c337baa"
     else
       url "https://github.com/racgoo/task-pipeliner/releases/download/v0.2.3/tp-macos-x64"
-      sha256 "10c5c6d705f22dac515f1541d955f0834a08c75d14cd11b55c9e921b35424f84"
+      sha256 "120027cf1b47b2d26737f0eb587d2b49e9b283cff9a706f35119f64599f247d5"
     end
   end
   
   on_linux do
     url "https://github.com/racgoo/task-pipeliner/releases/download/v0.2.3/tp-linux-x64"
-    sha256 "f0a4a43d3adee87c5deb5810e8f9e38a7b08aaa1de2af89408dadc99e2c25de7"
+    sha256 "0717587c65706f0d4b199fbdbd066fa95a69fa3a77367f20123023d3f3ae7051"
   end
   
   def install
