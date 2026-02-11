@@ -2,21 +2,21 @@ class TaskPipeliner < Formula
   desc "A task pipeline runner with condition-based workflow execution"
   homepage "https://task-pipeliner.racgoo.com"
   license "MIT"
-  version "0.3.11"
+  version "0.3.12"
   
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/racgoo/task-pipeliner/releases/download/v0.3.11/tp-macos-arm64"
-      sha256 "2228e190ff341c787ea9eb56bbbb2048eb6ef245420d4240fd4c781bdc1b6edd"
+      url "https://github.com/racgoo/task-pipeliner/releases/download/v0.3.12/tp-macos-arm64"
+      sha256 "958f7a5ccf64b3908622c1a25524f2dea797a4d3a780fd76fdb990ff4233bef6"
     else
-      url "https://github.com/racgoo/task-pipeliner/releases/download/v0.3.11/tp-macos-x64"
-      sha256 "f6875ea35926d8d7f657055d591881103b30fb0dc8d3ed7117d2dbf5486ffe02"
+      url "https://github.com/racgoo/task-pipeliner/releases/download/v0.3.12/tp-macos-x64"
+      sha256 "e33aa719a52ae1c68010b13a880e86a5526397691ccf8409c4d0af9390a606eb"
     end
   end
   
   on_linux do
-    url "https://github.com/racgoo/task-pipeliner/releases/download/v0.3.11/tp-linux-x64"
-    sha256 "ca93bf5e557eef60f21083d8e0a07f911cba0294d69d99a2e2cb738570d35ccc"
+    url "https://github.com/racgoo/task-pipeliner/releases/download/v0.3.12/tp-linux-x64"
+    sha256 "5c2d0b90574e2bd313a5652b69abf2fabca8b1f8785941080d77ba54071053ff"
   end
   
   def install
